@@ -1,0 +1,26 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D1E8E4;
+    height: 800px;
+    margin-top: 200px;
+    padding: 20px;
+}
+.person {
+    margin: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #C37B89;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 7px
+    
+}
