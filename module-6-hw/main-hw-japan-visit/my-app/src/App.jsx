@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { data } from './data'
 import './App.css'
-import ShowSlides from './slides'
+import ShowSlides from './ShowSlides'
 import HandleList from './List'
 
 function App() {

@@ -4,16 +4,16 @@ function ShowSlides({data, place, previousPlace, nextPlace, addToList}) {
 return(
     <div>
         <div className='slidesBox'>
-            <div className=''>
+            <div>
                 <h2>{name}</h2>
             </div>
-            <div className=''>
+            <div>
                 <img src={image} alt=" photo" width="700px" />
             </div>
-            <div className=''>
+            <div>
                 <p>{toDo} </p>
             </div>
-            <div className=''>
+            <div>
                 <button className="btn" onClick={previousPlace}>Previous</button>
                 <button className="btn" onClick={addToList}>Add to my list</button>
                 <button className="btn" onClick={nextPlace}>Next</button>
