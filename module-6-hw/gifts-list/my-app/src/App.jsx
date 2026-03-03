@@ -37,7 +37,7 @@ function App() {
       </div>)
     }))}
     <div className='container'>
-      <button onClick={() => setGifts([])}>delete all</button>
+      <button onClick={() => setGifts([])}>Delete all</button>
     </div>
     </div>
   )
