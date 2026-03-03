@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <div className='container'>
-        <h1>The list of {gifts.length} gifts.</h1>
+        <h1>List of {gifts.length} gifts</h1>
       </div>
 
     {gifts.map((element => {
