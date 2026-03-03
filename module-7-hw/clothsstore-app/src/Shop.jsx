@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import { data } from './data';
-import Cloths from './Cloths';
+import Cloths from './Clothes';
 import Buttons from './Buttons';
 import './App.css'
-
 
 function Shop() {
     const [clothes, setClothes] = useState(data);
@@ -12,7 +11,6 @@ function Shop() {
     const newClothes = data.filter(element => element.searchTerm === searchTerm);
     setClothes(newClothes);
     }
-
     return (
     <div>
         <div className='cont'>

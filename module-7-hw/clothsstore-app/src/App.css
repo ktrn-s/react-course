@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .product-card {
   padding: 2%;
   flex-grow: 1;
@@ -35,7 +34,6 @@ h3, h4 {
 button {
   margin: 10px;
 }
-
 nav {
   display: flex;
   justify-content: center;
@@ -43,7 +41,6 @@ nav {
   padding: 20px;
   background-color: black;
 }
-
 .link {
   text-decoration: none;
   color: white;
@@ -52,11 +49,9 @@ nav {
   transition: 0.3s;
   text-transform: uppercase;
 }
-
 .link:hover {
   color: pink;
 }
-
 .page {
   max-width: 800px;
   margin: 60px auto;

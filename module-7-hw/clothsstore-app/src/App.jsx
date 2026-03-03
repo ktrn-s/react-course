@@ -1,6 +1,7 @@
 import About from './About';
 import Shop from './Shop';
 import Contact from './Contact';
+import AboutProduct from './AboutProduct'
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,7 +9,6 @@ import {
   Link
 } from "react-router-dom";
 import './App.css'
-
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Route path="/shop" element={<Shop/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path='/about/:title' element={<AboutProduct />} />
         </Routes>
       </Router>
   )
