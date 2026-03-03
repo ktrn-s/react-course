@@ -12,7 +12,6 @@ function App() {
     let newCount = addList.filter(addList => addList.id !== id)
     setAddList(newCount);
   }
-
   const previousPlace = () => {
     setPlace((place => {
         place --;
@@ -22,7 +21,6 @@ function App() {
         return place;
     }))
     }
-
     const nextPlace = () => {
     setPlace((place => { 
         place ++;
@@ -32,7 +30,6 @@ function App() {
         return place;
     }))
     }
-
     const addToList = () => {
       const currentPlace = data[place];
       const alreadyAdded = addList.some(item => item.id === currentPlace.id);
@@ -40,7 +37,6 @@ function App() {
         setAddList([...addList, currentPlace]);
       }
     }
-
   return (
     <div>
       <div className='container'>

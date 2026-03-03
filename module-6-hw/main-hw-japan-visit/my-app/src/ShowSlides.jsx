@@ -1,4 +1,3 @@
-
 function ShowSlides({data, place, previousPlace, nextPlace, addToList}) {
     const { name, toDo, image} = data[place];
 return(
