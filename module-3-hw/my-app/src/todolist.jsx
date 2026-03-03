@@ -45,7 +45,7 @@ export class ToDo extends Component {
                 </div>
                 <div className="wrapper">
                     <button onClick={() => this.addItem(this.state.UserInput)}
-                        className="btn add"> Add </button>
+                        className="btn add"> Add + </button>
                 </div>
                 <ul>
                     {this.state.ToDoList.map((item, index) => (
