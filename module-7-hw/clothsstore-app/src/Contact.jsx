@@ -8,7 +8,7 @@ function Contact() {
       <p>Location: Buffalo, USA</p>
 
       <p>
-        Have questions? Feel free to reach out.
+        Have questions? Feel free to reach out!
         We usually respond within 24 hours.
       </p>
     </div>
