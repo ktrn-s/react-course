@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className='container'> 
-      <h1 className='heading'>Bored? 🤔</h1>
+      <h1 className='heading'>Bored? Let’s Fix That. 🤔</h1>
 
       <div className='act-card'>
         <h3>{showActivity}</h3>
