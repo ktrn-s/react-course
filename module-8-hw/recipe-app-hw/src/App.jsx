@@ -4,8 +4,8 @@ import MyRecipeComponent from './MyRecipeComponent';
 
 function App() {
 
-  const MY_ID = import.meta.env.VITE_APP_ID;
-  const MY_KEY = import.meta.env.VITE_APP_KEY;
+  // const MY_ID = import.meta.env.VITE_APP_ID;
+  // const MY_KEY = import.meta.env.VITE_APP_KEY;
 
   const [mySearch, setMySearch] = useState("");
   const [myRecipes, setMyRecipes] = useState([]);
@@ -13,8 +13,9 @@ function App() {
 
   useEffect(() => {
     const getRecipe = async() => {
-      const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${submitted}&app_id=${MY_ID}&app_key=${MY_KEY}`,
-        {
+      // const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${submitted}&app_id=${MY_ID}&app_key=${MY_KEY}`,
+        const response = await fetch(`/.netlify/functions/get-recipes?q=${submitted}`,
+      {
         headers: {
           "Edamam-Account-User": "student"
         }
