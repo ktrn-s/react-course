@@ -33,7 +33,7 @@ function App() {
       </div>
         <button
         className="btn"
-        onClick={getRes}>Next suggestion </button>
+        onClick={getRes}>Suggest Something Else </button>
       </div>
     </div>
   )
