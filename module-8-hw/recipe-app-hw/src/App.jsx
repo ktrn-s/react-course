@@ -36,7 +36,7 @@ function App() {
   return (
   <div className="App">
     <div className='header'>
-    <h1>Discover Delicious Recipes!</h1>
+    <h1>Discover Delicious Recipes</h1>
     <form onSubmit={searchResult} className="searchForm">
       <input
         onChange={myRecipeSearch}
