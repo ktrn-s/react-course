@@ -10,7 +10,7 @@ function App() {
         <img src={imageTwo} alt="imageTwo" width="250px"/>
       </div>
       <div className='wrapper'>
-        <h1>List </h1>
+        <h1>To Do List!</h1>
       </div>
       <div>
         <ToDo/>
