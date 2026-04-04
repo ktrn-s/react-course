@@ -11,7 +11,6 @@ function App() {
       </div>
       <div className='wrapper'>
         <h1>To Do List!</h1>
-        <p>here is the list: </p>
       </div>
       <div>
         <ToDo/>
