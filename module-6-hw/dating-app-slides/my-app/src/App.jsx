@@ -5,7 +5,6 @@ import './App.css'
 function App() {
   const [person, setPerson] = useState(0);
   const {id, name, description, age, image} = data[person];
-console.log(data[person])
 
   const previousPerson = () => {
     setPerson((person => {
