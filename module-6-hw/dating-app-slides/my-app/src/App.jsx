@@ -47,8 +47,8 @@ console.log(data[person])
       </div>
 
       <div className='btn '>
-        <button onClick={previousPerson}>Previous!</button>
-        <button onClick={nextPerson}>Next!</button>
+        <button onClick={previousPerson}>Previous</button>
+        <button onClick={nextPerson}>Next</button>
       </div>
 
     </div>
