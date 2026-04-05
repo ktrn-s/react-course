@@ -43,12 +43,12 @@ console.log(data[person])
       </div>
 
       <div className=''>
-        <h2>{age} years old.</h2>
+        <h2>{age} years old</h2>
       </div>
 
       <div className='btn '>
-        <button onClick={previousPerson}>Previous</button>
-        <button onClick={nextPerson}>Next</button>
+        <button onClick={previousPerson}>Previous!</button>
+        <button onClick={nextPerson}>Next!</button>
       </div>
 
     </div>
