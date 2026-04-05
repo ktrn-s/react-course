@@ -43,7 +43,7 @@ console.log(data[person])
       </div>
 
       <div className=''>
-        <h2>{age} years old</h2>
+        <h2>{age} years old.</h2>
       </div>
 
       <div className='btn '>
