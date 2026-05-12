@@ -1,7 +1,7 @@
 function About() {
   return (
     <div className="page">
-      <h1>About Us</h1>
+      <h1>About Us !!!</h1>
       <p>
         Welcome to our clothing store. We believe fashion should be comfortable,
         affordable, and stylish.
