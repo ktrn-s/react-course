@@ -12,7 +12,7 @@ function About() {
         modern trends and everyday comfort.
       </p>
       <p>
-        Thank you for supporting our local  business ❤️
+        Thank you for supporting our business ❤️
       </p>
     </div>
   )
