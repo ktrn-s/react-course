@@ -11,7 +11,7 @@ function App() {
       </div>
       <div className='wrapper'>
         <h1>Today’s Tasks ✨</h1>
-        <p className="subtitle">Small steps. Big results.</p>
+        <p className="subtitle">Small steps. Big results!!!!!</p>
       </div>
       <div>
         <ToDo/>
